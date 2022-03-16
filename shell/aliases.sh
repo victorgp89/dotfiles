@@ -3,8 +3,8 @@ alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
-alias ll="ls -l"
-alias la="ls -la"
+alias ll="ls -l --color"
+alias la="ls -la --color"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 
@@ -28,9 +28,5 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
-
-alias dcon="_docker_connect"
-_docker_connect() {
-  containerid=$(docker ps | tail -n +2 | fzf | awk '{print $1}')
-  docker exec -it $containerid bash
-}
+alias dcon='_docker_connect'
+alias home='cd /home/$USER'
