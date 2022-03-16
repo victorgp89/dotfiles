@@ -18,7 +18,7 @@ so ~/.vim/maps.vim
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
-
+set bg=dark
 
 "" Searching
 set hlsearch                    " highlight matches

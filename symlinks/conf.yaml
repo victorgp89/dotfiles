@@ -17,6 +17,7 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.inputrc: shell/.inputrc
-    ~/.vimrc: editors/vim/.vimrc
+    ~/.vimrc: editors/vim/configs/.vimrc
+    ~/.tmux.conf: editors/tmux/.tmux.conf
     ~/.config/composer/composer.json: langs/php/composer.json
     
